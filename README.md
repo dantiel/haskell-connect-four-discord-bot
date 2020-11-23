@@ -1,6 +1,6 @@
 # Connect Four Discord Bot
 
-This is a Discord bot written in Haskell that runs in a Docker container on a free Heroku worker dyno and allows the users play an ASCII connect four game against a KI by using chat commands.
+This is a Discord bot written in Haskell that runs in a Docker container on a free Heroku worker dyno and allows the users to play an ASCII connect four game against a KI by using chat commands.
 
 ## Live Demo
 
@@ -33,11 +33,10 @@ After [creating a discord bot and adding it to your server](https://github.com/r
 
 ## TODO 
 
-[X] win against KI
-[ ] make difficulty selectable per user
-[ ] add a multiplayer mode that allows playing against other users.
-[ ] control by reactions than commands
-[ ] play game in place by editing original message
-[ ] replace `X`and `O` characters by colored symbols
-[ ] cleaner code
-
+- [x] win against KI
+- [ ] make difficulty selectable per user
+- [ ] add a multiplayer mode that allows playing against other users.
+- [ ] control by reactions than commands
+- [ ] play game in place by editing original message
+- [ ] replace `X`and `O` characters by colored symbols
+- [ ] cleaner code
