@@ -2,6 +2,16 @@
 
 This is a Discord bot written in Haskell that runs in a Docker container on a free Heroku worker dyno and allows the users play an ASCII connect four game against a KI by using chat commands.
 
+## Live Demo
+
+Checkout the connect-four discord test server: <https://discord.gg/uGee5KxB>
+
+## Bot Commands
+
+ * `!newgame` - start a new game
+ * `!move <X>` do your move where _`<X>`_ is a number [1-7]
+ * `!show` yield current state again
+ 
 ## Installation
 
 ### Prerequisites
@@ -20,12 +30,6 @@ After [creating a discord bot and adding it to your server](https://github.com/r
 4. Deploy by `> $ make deploy`. This will take a while at first, future deploys will run faster (see `Dockerfile`).
 5. Make sure herokus dyno is properly configured `> $ heroku ps:scale web=0 worker=1`
 6. Have fun!
-
-## Bot Commands
-
-* `!newgame` - start a new game
-* `!move <X>` do your move where _`<X>`_ is a number [1-7]
-* `!show` yield current state again
 
 ## TODO 
 
