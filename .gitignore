@@ -2,3 +2,4 @@
 .env
 production.env
 .ssh
+Makefile
